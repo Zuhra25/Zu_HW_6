@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        task1();task2();task3();task4();task5();task6();task7(); //task8();task9();task10();
+        task1();task2();task3();task4();task5();task6();task7();task8();//task9();task10();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -53,12 +53,17 @@ public class Main {
             System.out.println(i);
         }
     }
-//
-//    public static void task8 () {
-//        System.out.println("Задача 8");
-//
-//    }
-//
+
+    public static void task8 () {
+        System.out.println("Задача 8");
+        int invest = 29_000;
+        int deposit = 0;
+        for (int i = 1 ; i <= 12 ; i++) {
+            deposit = deposit + invest;
+            System.out.println(i + " - в копилке " + deposit);
+        }
+    }
+
 //
 //    public static void task9 () {
 //        System.out.println("Задача 9");
