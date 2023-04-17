@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        task1();task2();task3();task4();task5();task6();task7();task8();//task9();task10();
+        task1();task2();task3();task4();task5();task6();task7();task8();task9(); //task10();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -60,15 +60,19 @@ public class Main {
         int deposit = 0;
         for (int i = 1 ; i <= 12 ; i++) {
             deposit = deposit + invest;
-            System.out.println(i + " - в копилке " + deposit);
+            System.out.println("месяц " + i + " - в копилке " + deposit);
         }
     }
 
-//
-//    public static void task9 () {
-//        System.out.println("Задача 9");
-//
-//    }
+    public static void task9 () {
+        System.out.println("Задача 9");
+        int invest = 29_000;
+        int deposit = 0;
+        for (int i = 1 ; i <= 12 ; i++) {
+            deposit = (deposit + deposit/100) + invest;
+            System.out.println("Месяц " + i + "," + " сумма накоплений равна " + deposit + " рублеймесяц ");
+        }
+    }
 //
 //    public static void task10 () {
 //        System.out.println("Задача 10");
